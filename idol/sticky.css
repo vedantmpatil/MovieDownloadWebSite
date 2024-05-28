@@ -1,0 +1,60 @@
+
+/* *********************** */
+.sticky{
+    border: 4px solid green;
+}
+.stickysongTime {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stickyprogressBar {
+    display: flex;
+    justify-content: center;
+}
+
+#stickyprogress {
+    width: 21vw;
+    cursor: pointer;
+}
+
+.stickyrow2 span i {
+    cursor: pointer;
+    scale: 1.5;
+}
+
+#stickyplay {
+    scale: 3.2;
+}
+
+#stickyskipnext {
+    scale: 2.4;
+}
+
+#stickyskipprevious {
+    scale: 2.4;
+}
+
+#stickyshuffle {
+    scale: 1.6;
+}
+
+#stickyqueue {
+    scale: 1.6;
+}
+
+
+#heart:hover {
+    scale: 1.2;
+}
+.stickyrow1 {
+    border: 3px solid rgb(0, 238, 255);
+    margin: 10px 0px 0px 0px;
+}
+
+.stickyrow2 {
+    border: 3px solid rgb(234, 255, 0);
+    margin: 15px 0px 0px 0px;
+    display: flex;
+    justify-content: space-around;
+}

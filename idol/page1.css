@@ -1,0 +1,66 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: black;
+}
+
+.Mcontainer {
+    border: 2px solid red;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.box {
+    border: 2px solid royalblue;
+    color: white;
+
+}
+
+.row1 {
+    border: 2px solid yellow;
+}
+
+.row2 {
+    border: 2px solid yellow;
+}
+
+.row3 {
+    border: 2px solid yellow;
+}
+
+.row4 {
+    border: 2px solid yellow;
+}
+
+.row5 {
+    border: 2px solid yellow;
+}
+
+.rows {
+    border: 2px solid rgb(193, 65, 225);
+    color: white;
+    /* text-align: center; */
+}
+
+.hero {
+    border: 2px solid lightcoral;
+    margin: -70px 157px 0px 158px;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .hero {
+        visibility: hidden;
+    }
+}

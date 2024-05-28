@@ -1,0 +1,907 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SBV's PRIMEFLIX</title>
+    <!-- bootstrap linking -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- Tailwind  -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@0.7.4/dist/tailwind.min.css" rel="stylesheet">
+
+    <!-- google fonts  -->
+    <link href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Ultra&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: url("https://images.hdqwalls.com/wallpapers/bthumb/blur-of-3-colors-m3.jpg") no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        div {
+            color: white;
+        }
+
+        a {
+            color: #FF2400;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #C21807;
+            scale: 1.2;
+        }
+
+        div>div>div:hover {
+            scale: 1.05;
+        }
+
+        nav {
+            /* border: 2px solid black; */
+            /* background: url("https://4kwallpapers.com/images/walls/thumbs_3t/10258.jpg") no-repeat center center;
+    background-size: cover; */
+            background: linear-gradient(to right, black, rgb(60, 60, 60));
+            /* background:  linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%); */
+        }
+
+        .navbar-name {
+            color: white;
+            font-size: x-large;
+            text-decoration: none;
+        }
+
+        .nav-item {
+            padding: 15px;
+            margin: 6px;
+            font-family: 'Patua One', cursive;
+        }
+
+        #logo {
+            font-size: 20;
+            padding: 12px;
+            color: white;
+            font-family: 'Caprasimo', cursive;
+        }
+
+        #logo:hover {
+            color: rgb(160, 2, 2);
+            font-size: x-large;
+            scale: 1.2;
+        }
+
+        #home {
+            color: white;
+        }
+
+        #home:hover {
+            color: darkred;
+            scale: 1.1;
+        }
+
+        #movies:hover {
+            color: darkred;
+            scale: 1.1;
+        }
+
+        #series:hover {
+            color: darkred;
+            scale: 1.1;
+        }
+
+        #animation:hover {
+            color: darkred;
+            scale: 1.1;
+        }
+
+        #movies {
+            color: white;
+        }
+
+        #series {
+            color: white;
+        }
+
+        #animation {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- navbar down -->
+
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-name" id="logo" href="/">SBV's-primeflix</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="home" aria-current="page" href="/">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" id="movies" aria-current="page" href="/movies">MOVIES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" id="series" aria-current="page" href="/series">SERIES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" id="animation" aria-current="page" href="/animation">ANIMATION</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- navbar up -->
+
+    <!-- container 1 down  -->
+    <div class="container1">
+
+        <section class="text-gray-600 body-font">
+            <div class="container px-5 py-24 mx-auto">
+                <div class="flex flex-wrap -m-4">
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                src="https://cdn.wallpapersafari.com/85/89/0xDhA8.jpg" alt="blog">
+                            <div class="p-6">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                                    Action/Fantasy
+
+                                </h2>
+                                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The Witcher (2023)</h1>
+                                <p class="leading-relaxed mb-3">Geralt of Rivia, a solitary monster hunter, struggles to
+                                    find his place in a world where people often prove more wicked than beasts.</p>
+                                <div class="flex items-center flex-wrap ">
+                                    <a href="https://driveleech.org/r?key=RTk5YzJ0b0dKTS8xa2NXNDVzOXdDTjdXVEJqMVdjTUkwWXN2WTFzcjkyUT0=&id=bUViSTZMY0hiVjhDT1l1MWxMU2hWa0R2Mm5VUFpsREZrY0Nzc2lJbVg2eXJ2WXV6WDVQRkVwaGFmTVpEck9tYQ=="
+                                        class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Download
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                src="https://oespectadorrabugentoblog.files.wordpress.com/2018/05/the-vampire-diaries-081.jpg?w=1200"
+                                alt="blog">
+                            <div class="p-6">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                                    Drama
+
+                                </h2>
+                                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The Vampire Diaries (2017)
+                                </h1>
+                                <p class="leading-relaxed mb-3">A special one hour show, shown directly before the
+                                    series finale. A "thank you" to the fans and a nostalgic moment for the Originals
+                                    (pardon the pun).</p>
+                                <div class="flex items-center flex-wrap ">
+                                    <a href="https://driveleech.org/r?key=RTk5YzJ0b0dKTS8xa2NXNDVzOXdDTjdXVEJqMVdjTUkwWXN2WTFzcjkyUT0=&id=d1Q1K3RmRU9MS1pJa3lEVmp5eTBwVklkbFkxMUU3eWs1NThya3dpWlRldDJ2Zi9HZWZGK2xLRTVaZVMzVXlVUA=="
+                                        class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Download
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                src="https://i.ytimg.com/vi/AZJ4ifbaxRo/maxresdefault.jpg" alt="blog">
+                            <div class="p-6">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                                    Thriller/Action
+
+                                </h2>
+                                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Citadel (2023)</h1>
+                                <p class="leading-relaxed mb-3">Global spy agency Citadel has fallen, and its agents'
+                                    memories were wiped clean. Now the powerful syndicate, Manticore, is rising in the
+                                    void. Can the Citadel agents recollect their past and summon the strength to fight
+                                    back?</p>
+                                <div class="flex items-center flex-wrap ">
+                                    <a href="https://driveleech.org/r?key=RTk5YzJ0b0dKTS8xa2NXNDVzOXdDTjdXVEJqMVdjTUkwWXN2WTFzcjkyUT0=&id=cGlOQ3JOZllFeGRCTGhJRUJVNTZuZUhYNGZPK0txakVvZ1g3cEVvdTgvS1FjbndvY1loYkxVZXhpdnM5U0ZPNQ=="
+                                        class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Download
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- container 1 up  -->
+    <!-- ----------------------------------------------------------------- -->
+    <!-- container 2 down  -->
+    <div class="container2">
+
+        <section class="text-gray-600 body-font">
+            <div class="container px-5 py-24 mx-auto">
+                <div class="flex flex-wrap -m-4">
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <!-- image  -->
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                src="https://wallpapers.com/images/featured/sweet-tooth-f0xyjm0tov80s7dr.jpg"
+                                alt="blog">
+                            <div class="p-6">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                                    Action/Adventure
+
+                                </h2>
+                                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Sweet Tooth (2021)</h1>
+                                <p class="leading-relaxed mb-3">A boy who is half human and half deer survives in a
+                                    post-apocalyptic world with other hybrids.</p>
+                                <div class="flex items-center flex-wrap ">
+                                    <a href="https://driveleech.org/r?key=RTk5YzJ0b0dKTS8xa2NXNDVzOXdDTjdXVEJqMVdjTUkwWXN2WTFzcjkyUT0=&id=dEVyZDVUQmQwVVVsQjYrUkx0RHdYOHZqNmpSMHMvNjh3cW5RUFlLRVlGNERyeW5OeVNYTXdORmJsa3Q3aUczYQ=="
+                                        class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Download
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                src="https://i2.wp.com/dvd-fever.co.uk/dvd-fever/wp-content/uploads/2022/12/kaleidoscope-2023.jpg?ssl=1"
+                                alt="blog">
+                            <div class="p-6">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">‧
+                                    Action/Crime
+
+                                </h2>
+                                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Kaleidoscope (2023)</h1>
+                                <p class="leading-relaxed mb-3">Centered around the largest heist ever attempted, the
+                                    vengeance and betrayals that surround it.</p>
+                                <div class="flex items-center flex-wrap ">
+                                    <a href="https://driveleech.org/r?key=RTk5YzJ0b0dKTS8xa2NXNDVzOXdDTjdXVEJqMVdjTUkwWXN2WTFzcjkyUT0=&id=QnRpZ3NRZWhISXc4dEtObzZ2K2RSTXpMbHR6QUVUeDhEaTdQdEp5KzZDcnlmcC90S3pQZXNHNkw0RjNQZEo0Rg=="
+                                        class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Download
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                src="https://ntvb.tmsimg.com/assets/p23063500_b_h8_ad.jpg?w=960&h=540" alt="blog">
+                            <div class="p-6">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                                    Crime/Fantasy
+
+                                </h2>
+                                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Wednesday (2022) </h1>
+                                <p class="leading-relaxed mb-3">Follows Wednesday Addams' years as a student, when she
+                                    attempts to master her emerging psychic ability, thwart a killing spree, and solve
+                                    the mystery that embroiled her parents.</p>
+                                <div class="flex items-center flex-wrap ">
+                                    <a href="https://driveleech.org/r?key=RTk5YzJ0b0dKTS8xa2NXNDVzOXdDTjdXVEJqMVdjTUkwWXN2WTFzcjkyUT0=&id=SlpQeDRCMmpBZTR1bWRkc1l4MGxjVEFibGJxT1VEY0h6cEgwaGVBR1dPYkRhRTY5RnRUOUtCUm82Zm9OTXNHaw=="
+                                        class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Download
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- container 2 up  -->
+    <!-- container 3 down  -->
+
+    <div class="container3">
+
+        <section class="text-gray-600 body-font">
+            <div class="container px-5 py-24 mx-auto">
+                <div class="flex flex-wrap -m-4">
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <!-- image  -->
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                src="https://images.alphacoders.com/548/548564.jpg" alt="blog">
+                            <div class="p-6">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                                    Drama/Horror
+
+                                </h2>
+                                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The Walking Dead (2022)
+                                </h1>
+                                <p class="leading-relaxed mb-3">Sheriff Deputy Rick Grimes wakes up from a coma to learn
+                                    the world is in ruins and must lead a group of survivors to stay alive.</p>
+                                <div class="flex items-center flex-wrap ">
+                                    <a href="https://driveleech.org/r?key=RTk5YzJ0b0dKTS8xa2NXNDVzOXdDTjdXVEJqMVdjTUkwWXN2WTFzcjkyUT0=&id=Y1dmVDBQOEVYTWN3Qit4Vm1aaVMxZ2tVcWdSZWo0eWxTSDNJUG1nVDNtZXVMU3BJdWZCZEo2MG1vY1ZtcjJ1SQ=="
+                                        class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Download
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                src="https://m.media-amazon.com/images/M/MV5BMmEyNTVjYTYtYTg3Ni00ZThiLThhYjQtNDZkYTlkMzM4MWExXkEyXkFqcGdeQXVyMTE0MzQwMjgz._V1_.jpg"
+                                alt="blog">
+                            <div class="p-6">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                                    Action/Comedy
+                                </h2>
+                                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Peacemaker (2022) </h1>
+                                <p class="leading-relaxed mb-3">Picking up where The Suicide Squad (2021) left off,
+                                    Peacemaker returns home after recovering from his encounter with Bloodsport - only
+                                    to discover that his freedom comes at a price.</p>
+                                <div class="flex items-center flex-wrap ">
+                                    <a href="https://driveleech.org/r?key=RTk5YzJ0b0dKTS8xa2NXNDVzOXdDTjdXVEJqMVdjTUkwWXN2WTFzcjkyUT0=&id=VndrYTR3T1JiTU9TMlNYU2k0eEZSVDl3VnJINWhWT1NiQng1cFV4VWlkVExWUVJsZFlaYTZPTndoQTRpL1ZYZw=="
+                                        class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Download
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ07Aipoz69tTlX3V7okmOrwRc220nmkScsKdcZeRshOj9f6WnZ-iGLCKroMmerxxWveYU&usqp=CAU"
+                                alt="blog">
+                            <div class="p-6">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                                    Action/Adventure
+
+                                </h2>
+                                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Game Of Thrones (2019)
+                                </h1>
+                                <p class="leading-relaxed mb-3">Nine noble families fight for control over the lands of
+                                    Westeros, while an ancient enemy returns after being dormant for a millennia.</p>
+                                <div class="flex items-center flex-wrap ">
+                                    <a href="https://driveleech.org/r?key=RTk5YzJ0b0dKTS8xa2NXNDVzOXdDTjdXVEJqMVdjTUkwWXN2WTFzcjkyUT0=&id=dXZ5SkdHVEttRlZoVHNueU45MitrNUNJODFOQmRkcTBTZE5LVVNOSjJNRW5JMzN2NklKcHRjcEYrclI0WnR2Sw=="
+                                        class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Download
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- container 3 up  -->
+    <!-- container 4 down  -->
+
+    <div class="container4">
+
+        <section class="text-gray-600 body-font">
+            <div class="container px-5 py-24 mx-auto">
+                <div class="flex flex-wrap -m-4">
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <!-- image  -->
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                src="https://w0.peakpx.com/wallpaper/73/952/HD-wallpaper-tv-show-never-have-i-ever-thumbnail.jpg"
+                                alt="blog">
+                            <div class="p-6">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                                    Comedy/Drama
+
+                                </h2>
+                                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Never Have I Ever (2022)
+                                </h1>
+                                <p class="leading-relaxed mb-3">The complicated life of a first-generation
+                                    Indian-American teenage girl, inspired by Mindy Kaling's own childhood.</p>
+                                <div class="flex items-center flex-wrap ">
+                                    <a href="https://driveleech.org/r?key=RTk5YzJ0b0dKTS8xa2NXNDVzOXdDTjdXVEJqMVdjTUkwWXN2WTFzcjkyUT0=&id=d05iNUtHaWV5aVFTY2dCdll2N0xzbGpLNWFJNDN5ZE9DNG9hLzlqZTN2OTQzQlV2V0tQM1lEQXZ2R3lSYnMzYw=="
+                                        class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Download
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                src="https://e1.pxfuel.com/desktop-wallpaper/212/942/desktop-wallpaper-riverdale-season-5-release-date-cast-plot-trailer-and-upcoming-details-about-next-season-riverdale-season-5.jpg"
+                                alt="blog">
+                            <div class="p-6">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                                    Crime/Mystery
+
+                                </h2>
+                                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Riverdale (2021)
+                                </h1>
+                                <p class="leading-relaxed mb-3">While navigating the troubled waters of romance, school
+                                    and family, Archie and his gang become entangled in dark Riverdale mysteries.</p>
+                                <div class="flex items-center flex-wrap ">
+                                    <a href="https://driveleech.org/r?key=RTk5YzJ0b0dKTS8xa2NXNDVzOXdDTjdXVEJqMVdjTUkwWXN2WTFzcjkyUT0=&id=Z25MRVMxazVSMUlENXZJd3NUT0U4a1VuVUNOYTAyTGRNcE5reEpqU1NNSGs4aUNvRUExR09qUC9oc0swei95Rw=="
+                                        class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Download
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                src="https://c4.wallpaperflare.com/wallpaper/505/1/260/vikings-season-4-wallpaper-preview.jpg"
+                                alt="blog">
+                            <div class="p-6">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                                    Action/Adventure
+
+                                </h2>
+                                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Vikings (2020) </h1>
+                                <p class="leading-relaxed mb-3">Vikings transports us to the brutal and mysterious world
+                                    of Ragnar Lothbrok, a Viking warrior and farmer who yearns to explore--and raid--the
+                                    distant shores across the ocean.</p>
+                                <div class="flex items-center flex-wrap ">
+                                    <a href="jhttps://driveleech.org/r?key=RTk5YzJ0b0dKTS8xa2NXNDVzOXdDTjdXVEJqMVdjTUkwWXN2WTFzcjkyUT0=&id=Mzl4clZkL0x4MDJ2a0VtY294S0UvYTFhekYzc0U0b2JNQ0J3RDBIaUR4a05qMXl2YjRQT2JhY1hQc1lVMTU2WQ=="
+                                        class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Download
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- container 4 up  -->
+    <!-- container 5 down  -->
+
+    <div class="container5">
+
+        <section class="text-gray-600 body-font">
+            <div class="container px-5 py-24 mx-auto">
+                <div class="flex flex-wrap -m-4">
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <!-- image  -->
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                src="https://w0.peakpx.com/wallpaper/985/1007/HD-wallpaper-narcos-poster.jpg"
+                                alt="blog">
+                            <div class="p-6">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                                    Crime/Biography
+
+                                </h2>
+                                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Narcos (2015)</h1>
+                                <p class="leading-relaxed mb-3">A chronicled look at the criminal exploits of Colombian
+                                    drug lord Pablo Escobar, as well as the many other drug kingpins who plagued the
+                                    country through the years.</p>
+                                <div class="flex items-center flex-wrap ">
+                                    <a href="https://driveleech.org/r?key=RTk5YzJ0b0dKTS8xa2NXNDVzOXdDTjdXVEJqMVdjTUkwWXN2WTFzcjkyUT0=&id=Rmx2U3NhY29yK2dwMWdvZVRaRnE5cFdaNlBERk1zaWhYd25KdEJBVC9hcktmVTJlVnFpK0dheHBCcnNlOXF4Nw=="
+                                        class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Download
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                src="https://www.bt.com/content/dam/bt/portal/images/articles/tv/tv-comedy-netflix-man-vs-bee-new-keyart.jpg/jcr:content/renditions/landscape-mobile.570.321.jpg"
+                                alt="blog">
+                            <div class="p-6">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                                    Family/Comedy ‧ 2h 41m
+
+                                </h2>
+                                <h1 class="title-font text-lg font-medium text-gray-900 mb-3"> Man Vs Bee (2022)
+                                </h1>
+                                <p class="leading-relaxed mb-3">A man finds himself at war with a bee while housesitting
+                                    a luxurious mansion. Who will win, and what irreparable damage will be done in the
+                                    process?</p>
+                                <div class="flex items-center flex-wrap ">
+                                    <a href="https://driveleech.org/r?key=RTk5YzJ0b0dKTS8xa2NXNDVzOXdDTjdXVEJqMVdjTUkwWXN2WTFzcjkyUT0=&id=M2pRY0ZsZXhFVGxhSkRaclR2cUJLNmpFcWw3K3FLdG9yNVkwSkNLKzZCZFdtbjRYNC90azJvKzI0RmorWDV5cQ=="
+                                        class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Download
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                src="https://images2.alphacoders.com/124/1245316.jpg" alt="blog">
+                            <div class="p-6">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                                    Action/Adventure
+
+                                </h2>
+                                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Ms.Marvel (2022) </h1>
+                                <p class="leading-relaxed mb-3">Kamala, a superhero fan with an
+                                    imagination--particularly when it comes to Captain Marvel--feels like she doesn't
+                                    fit in at school and sometimes even at home, that is until she gets superpowers like
+                                    the heroes she admires.</p>
+                                <div class="flex items-center flex-wrap ">
+                                    <a href="https://driveleech.org/r?key=RTk5YzJ0b0dKTS8xa2NXNDVzOXdDTjdXVEJqMVdjTUkwWXN2WTFzcjkyUT0=&id=RXdIcStUbHVmcFdFWVdXYVp2NXgxekMwcEkrTkFZa04ybWFFQWJLTWlQV1pxWHNpNmxwcU9BZ0R1WFpPMWpsWQ=="
+                                        class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Download
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- container 5 up  -->
+    <!-- container 6 down  -->
+
+    <div class="container6">
+
+        <section class="text-gray-600 body-font">
+            <div class="container px-5 py-24 mx-auto">
+                <div class="flex flex-wrap -m-4">
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <!-- image  -->
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFr1I8eSN5GSgPPiNnME9Fv5bg7G7yWdWSr7_tRCwXx3ZnWB9TP4RXsSqXPSn5rz8yeQ4&usqp=CAU"
+                                alt="blog">
+                            <div class="p-6">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                                    Mystery/Crime
+
+                                </h2>
+                                <h1 class="title-font text-lg font-medium text-gray-900 mb-3"> Sherlock (2017)
+                                </h1>
+                                <p class="leading-relaxed mb-3">The quirky spin on Conan Doyle's iconic sleuth pitches
+                                    him as a "high-functioning sociopath" in modern-day London. Assisting him in his
+                                    investigations: Afghanistan War vet John Watson, who's introduced to Holmes by a
+                                    mutual acquaintance.</p>
+                                <div class="flex items-center flex-wrap ">
+                                    <a href="https://driveleech.org/r?key=RTk5YzJ0b0dKTS8xa2NXNDVzOXdDTjdXVEJqMVdjTUkwWXN2WTFzcjkyUT0=&id=REg0UE9UeDdkWlRLZysycklnR04yTTVwTmpHaHF0SElvSE5Nbk04RXU3dlhjZzcyWkpWUlhwNnEzelI3aGJDLw=="
+                                        class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Download
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4sbysvnyKtLIpXFmTrtVeGKV8Tu0nXwUIdg&usqp=CAU"
+                                alt="blog">
+                            <div class="p-6">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                                    Drama/Crime
+
+                                </h2>
+                                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">DARK (2020)
+                                </h1>
+                                <p class="leading-relaxed mb-3">A family saga with a supernatural twist, set in a German
+                                    town where the disappearance of two young children exposes the relationships among
+                                    four families.</p>
+                                <div class="flex items-center flex-wrap ">
+                                    <a href="https://driveleech.org/r?key=RTk5YzJ0b0dKTS8xa2NXNDVzOXdDTjdXVEJqMVdjTUkwWXN2WTFzcjkyUT0=&id=cGJXbWZSOFJVZzBuNml0YTdQbnF4VUowNTRNSmlkbVFuV3E3MW11VnUrTVNrT0o4S2xySHBLMVdVeVUvN2NzeQ=="
+                                        class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Download
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                src="https://dnm.nflximg.net/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABWsVRzlWiXO-3fUSfMF61jrc1-BSLHFex6Kj-giSiSwdcgpgLODSXIiH8TDAEpUf6H28FQhXOlgxv4bjH26347ErNc_k_5LL_0yDYaaMJX1FatNtPwvY0z0vF7pAkgUN2yJUDA.jpg?r=a2e"
+                                alt="blog">
+                            <div class="p-6">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                                    Family/Animation
+
+                                </h2>
+                                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The Boss Baby Back in the
+                                    Crib (2022) </h1>
+                                <p class="leading-relaxed mb-3">Framed for a corporate crime, an adult Ted Templeton
+                                    turns back into the Boss Baby to live undercover with his brother, Tim, posing as
+                                    one of his kids.</p>
+                                <div class="flex items-center flex-wrap ">
+                                    <a href="https://driveleech.org/r?key=RTk5YzJ0b0dKTS8xa2NXNDVzOXdDTjdXVEJqMVdjTUkwWXN2WTFzcjkyUT0=&id=d01pZUthN0Faei9JcUtUd2srKzd1Nmt0SDUzd1dhUm5kZlRqdjRQZ1JERXF5bFVPNDVuY05iK01qUTZkQXpNcw=="
+                                        class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Download
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- container 6 up  -->
+    <!-- container 7 down  -->
+
+    <div class="container7">
+
+        <section class="text-gray-600 body-font">
+            <div class="container px-5 py-24 mx-auto">
+                <div class="flex flex-wrap -m-4">
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <!-- image  -->
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                src="https://wallpapercave.com/wp/wp6794247.jpg" alt="blog">
+                            <div class="p-6">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                                    Thriller/Crime
+
+                                </h2>
+                                <h1 class="title-font text-lg font-medium text-gray-900 mb-3"> Breaking Bad (2013)
+                                </h1>
+                                <p class="leading-relaxed mb-3">A chemistry teacher diagnosed with inoperable lung
+                                    cancer turns to manufacturing and selling methamphetamine with a former student in
+                                    order to secure his family's future.</p>
+                                <div class="flex items-center flex-wrap ">
+                                    <a href="https://driveleech.org/r?key=RTk5YzJ0b0dKTS8xa2NXNDVzOXdDTjdXVEJqMVdjTUkwWXN2WTFzcjkyUT0=&id=OVZmNXoxMEVXTi9lRmFtalpHQi9RcG8rVGdtMWRzRVZMZ3owMzVvUWpTaHRyZ21QT0NNUjdWNmx5b0M0WGRoOQ=="
+                                        class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Download
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW2KqwQyzffkicI5UbylPl8GOyO91s2N6sGg&usqp=CAU"
+                                alt="blog">
+                            <div class="p-6">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                                    Action/Crime
+
+                                </h2>
+                                <h1 class="title-font text-lg font-medium text-gray-900 mb-3"> Daredevil (2018)
+                                </h1>
+                                <p class="leading-relaxed mb-3">A blind lawyer by day, vigilante by night. Matt Murdock
+                                    fights the crime of New York as Daredevil.</p>
+                                <div class="flex items-center flex-wrap ">
+                                    <a href="https://driveleech.org/r?key=RTk5YzJ0b0dKTS8xa2NXNDVzOXdDTjdXVEJqMVdjTUkwWXN2WTFzcjkyUT0=&id=K25sQnJTcllZYzd6YXJjZ00rUFdSdjYrYVFPdFJMNkRtT1ZUMk9ieFFyK2JnQnFsc3JsSEFuTnltb0MyOWEwcA=="
+                                        class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Download
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                src="https://wallpaperaccess.com/full/1982557.jpg" alt="blog">
+                            <div class="p-6">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                                    Crime/Drama
+
+                                </h2>
+                                <h1 class="title-font text-lg font-medium text-gray-900 mb-3"> Elite (2022) </h1>
+                                <p class="leading-relaxed mb-3">When three working-class teenagers begin attending an
+                                    exclusive private school in Spain, the clash between them and the wealthy students
+                                    leads to murder.</p>
+                                <div class="flex items-center flex-wrap ">
+                                    <a href="https://driveleech.org/r?key=RTk5YzJ0b0dKTS8xa2NXNDVzOXdDTjdXVEJqMVdjTUkwWXN2WTFzcjkyUT0=&id=U2R0aHg3Z00zclp0eGdDVEdrT3dyZU9ZUkRRNzZjYm80WUJqV0QrNGdGNUtLWTc2dEc4Y0h2MVlqdktvRHdsQw=="
+                                        class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Download
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- container 7 up  -->
+    <!-- container 8 down  -->
+
+    <div class="container8">
+
+        <section class="text-gray-600 body-font">
+            <div class="container px-5 py-24 mx-auto">
+                <div class="flex flex-wrap -m-4">
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <!-- image  -->
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                src="https://wallpapers.com/images/featured/stranger-things-dkttxahzpl44tbsa.jpg"
+                                alt="blog">
+                            <div class="p-6">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                                    Drama/Fantasy
+                                </h2>
+                                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Stranger Things (2022)
+                                </h1>
+                                <p class="leading-relaxed mb-3">When a young boy disappears, his mother, a police chief
+                                    and his friends must confront terrifying supernatural forces in order to get him
+                                    back.</p>
+                                <div class="flex items-center flex-wrap ">
+                                    <a href="https://driveleech.org/r?key=RTk5YzJ0b0dKTS8xa2NXNDVzOXdDTjdXVEJqMVdjTUkwWXN2WTFzcjkyUT0=&id=ODB5QkN1VDZwbDFCd2N1djF3Tk51eU5tU1kyUFBvOUR3bk1tdExIMUNFYStrUXRzNy9PR1Z1M2RPT3BYTWtOLw=="
+                                        class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Download
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQX0WBgn6PUdvTYAe54icWoH50DcGmcSxjbF0NfgOiE_o8MvCTHg16hzYOZQ2nGiwwbCGI&usqp=CAU"
+                                alt="blog">
+                            <div class="p-6">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                                    Mystery/Sci-fi
+                                </h2>
+                                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Black Mirror (2023)
+                                </h1>
+                                <p class="leading-relaxed mb-3">An anthology series exploring a twisted, high-tech
+                                    multiverse where humanity's greatest innovations and darkest instincts collide.</p>
+                                <div class="flex items-center flex-wrap ">
+                                    <a href="https://driveleech.org/r?key=RTk5YzJ0b0dKTS8xa2NXNDVzOXdDTjdXVEJqMVdjTUkwWXN2WTFzcjkyUT0=&id=OFN3aExSYlVFeTgzM2JzMDV0RDZRMi9oQjB3U2V5QisyV1lrVUU0dUdjM0djVWtmcEdscjJhbWF1NEExcXlnRg=="
+                                        class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Download
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                src="https://blog.logomyway.com/wp-content/uploads/2021/01/friends-logo1.jpg"
+                                alt="blog">
+                            <div class="p-6">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                                    Comedy/Romance
+                                </h2>
+                                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Friends (2004) </h1>
+                                <p class="leading-relaxed mb-3">Follows the personal and professional lives of six
+                                    twenty to thirty year-old friends living in the Manhattan borough of New York City.
+                                </p>
+                                <div class="flex items-center flex-wrap ">
+                                    <a href="https://driveleech.org/r?key=RTk5YzJ0b0dKTS8xa2NXNDVzOXdDTjdXVEJqMVdjTUkwWXN2WTFzcjkyUT0=&id=UFdaWDFZRUZJek8vQ0diZTlWeFBCRmhwQksvSnJ6R2E1NkJ6TElwZUN0UjZNdVI3ZTBTdUpVSlY4bUVpcy8zdA=="
+                                        class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Download
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- container 8 up  -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

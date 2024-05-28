@@ -1,0 +1,911 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SBV's PRIMEFLIX</title>
+    <!-- bootstrap linking -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- Tailwind  -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@0.7.4/dist/tailwind.min.css" rel="stylesheet">
+
+    <!-- google fonts  -->
+    <link href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Ultra&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            /* background: url("https://images.hdqwalls.com/wallpapers/bthumb/colorful-stars-and-darkness-abstract-8k-er.jpg") no-repeat center center fixed ; */
+            background: url("https://images.hdqwalls.com/wallpapers/bthumb/blur-of-3-colors-m3.jpg") no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        div {
+            color: white;
+        }
+
+        a {
+            color: #FF2400;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #C21807;
+            scale: 1.2;
+        }
+
+        div>div>div:hover {
+            scale: 1.05;
+        }
+
+        nav {
+            /* border: 2px solid black; */
+            /* background: url("https://4kwallpapers.com/images/walls/thumbs_3t/10258.jpg") no-repeat center center;
+    background-size: cover; */
+            background: linear-gradient(to right, black, rgb(60, 60, 60));
+            /* background:  linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%); */
+        }
+
+        .navbar-name {
+            color: white;
+            font-size: x-large;
+            text-decoration: none;
+        }
+
+        .nav-item {
+            padding: 15px;
+            margin: 6px;
+            font-family: 'Patua One', cursive;
+        }
+
+        #logo {
+            font-size: 20;
+            padding: 12px;
+            color: white;
+            font-family: 'Caprasimo', cursive;
+        }
+
+        #logo:hover {
+            color: rgb(160, 2, 2);
+            font-size: x-large;
+            scale: 1.2;
+        }
+
+        #home {
+            color: white;
+        }
+
+        #home:hover {
+            color: darkred;
+            scale: 1.1;
+        }
+
+        #movies:hover {
+            color: darkred;
+            scale: 1.1;
+        }
+
+        #series:hover {
+            color: darkred;
+            scale: 1.1;
+        }
+
+        #animation:hover {
+            color: darkred;
+            scale: 1.1;
+        }
+
+        #movies {
+            color: white;
+        }
+
+        #series {
+            color: white;
+        }
+
+        #animation {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- navbar down -->
+
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-name" id="logo" href="/">SBV's-primeflix</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="home" aria-current="page" href="/">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" id="movies" aria-current="page" href="/movies">MOVIES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" id="series" aria-current="page" href="/series">SERIES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" id="animation" aria-current="page" href="/animation">ANIMATION</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- navbar up -->
+
+    <!-- container 1 down  -->
+    <div class="container1">
+
+        <section class="text-gray-600 body-font">
+            <div class="container px-5 py-24 mx-auto">
+                <div class="flex flex-wrap -m-4">
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSil_eqBHDSnlZDobTK1-0yYpiNXgpnHv7xWA&usqp=CAU"
+                                alt="blog">
+                            <div class="p-6">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                                    Action/Fantasy ‧ 2h 24m
+
+                                </h2>
+                                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The Flash (2023)</h1>
+                                <p class="leading-relaxed mb-3">Barry Allen uses his super speed to change the past, but
+                                    his attempt to save his family creates a world without super heroes, forcing him to
+                                    race for his life in order to save the future.</p>
+                                <div class="flex items-center flex-wrap ">
+                                    <a href="https://driveleech.org/r?key=RTk5YzJ0b0dKTS8xa2NXNDVzOXdDTjdXVEJqMVdjTUkwWXN2WTFzcjkyUT0=&id=UWNiTXlWUDc1UEpmMlYrVkV2ZktVQmEyWXpmK2VRN0Rmd0dYZldzRjVXZzZFeG5pVU11WWQ1aEIyK1hsWUdVYQ=="
+                                        class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Download
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/09e20adc-4256-4c77-8465-3fe5c2e09840/dfww2fa-b8d369c7-fa27-4441-b595-b2540323bb51.png/v1/fill/w_1095,h_730,q_70,strp/fast_x__2023____wallpaper_poster_hd_by_dreamerdesignoficial_dfww2fa-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODU0IiwicGF0aCI6IlwvZlwvMDllMjBhZGMtNDI1Ni00Yzc3LTg0NjUtM2ZlNWMyZTA5ODQwXC9kZnd3MmZhLWI4ZDM2OWM3LWZhMjctNDQ0MS1iNTk1LWIyNTQwMzIzYmI1MS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.p2NxK-KDCrs2AP6CKKrUGTsxAlgWFN0e1pxOBIaints"
+                                alt="blog">
+                            <div class="p-6">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                                    Action/Adventure ‧ 2h 21m
+
+                                </h2>
+                                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Fast X (2023)</h1>
+                                <p class="leading-relaxed mb-3">Dom Toretto and his family are targeted by the vengeful
+                                    son of drug kingpin Hernan Reyes.</p>
+                                <div class="flex items-center flex-wrap ">
+                                    <a href="https://driveleech.org/r?key=RTk5YzJ0b0dKTS8xa2NXNDVzOXdDTjdXVEJqMVdjTUkwWXN2WTFzcjkyUT0=&id=aFgzVkN5cVUxNjhFUGZnTnNrNHdic1pUR1NZQ2FJUDFQV01ENDhoeXEwc2dXbm1JZ3dTVTczWTFQSEcyd1NFaA=="
+                                        class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Download
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                src="https://wallpapercave.com/wp/wp11685752.jpg" alt="blog">
+                            <div class="p-6">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                                    Sci-fi/Action ‧ 3h 12m
+
+                                </h2>
+                                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Avatar: The Way of Water
+                                    (2022)</h1>
+                                <p class="leading-relaxed mb-3">Jake Sully lives with his newfound family formed on the
+                                    extrasolar moon Pandora. Once a familiar threat returns to finish what was
+                                    previously started, Jake must work with Neytiri and the army of the Na'vi race to
+                                    protect their home.</p>
+                                <div class="flex items-center flex-wrap ">
+                                    <a href="https://driveleech.org/r?key=RTk5YzJ0b0dKTS8xa2NXNDVzOXdDTjdXVEJqMVdjTUkwWXN2WTFzcjkyUT0=&id=TUx2SlQvSWx3RTEzV1JYWFE5S0wrY3NNajkvalI2SDNSR3dNV2tmaFA1VXVmQTFlQndBaWdDNHB3UWc2YjRtWA=="
+                                        class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Download
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- container 1 up  -->
+    <!-- ----------------------------------------------------------------- -->
+    <!-- container 2 down  -->
+    <div class="container2">
+
+        <section class="text-gray-600 body-font">
+            <div class="container px-5 py-24 mx-auto">
+                <div class="flex flex-wrap -m-4">
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <!-- image  -->
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                src="https://cdn.wallpapersafari.com/46/12/i9Tstf.jpg" alt="blog">
+                            <div class="p-6">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                                    Action/Thriller ‧ 2h 3m
+
+                                </h2>
+                                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Extraction 2 (2023)</h1>
+                                <p class="leading-relaxed mb-3">Seemingly dead at the end of the previous movie,
+                                    Hemsworth returns as the tough guy mercenary with a heart of gold on a mission to
+                                    save someone from something</p>
+                                <div class="flex items-center flex-wrap ">
+                                    <a href="https://driveleech.org/r?key=RTk5YzJ0b0dKTS8xa2NXNDVzOXdDTjdXVEJqMVdjTUkwWXN2WTFzcjkyUT0=&id=eW40Vks5dXNuYnZhbktQT0o3ZDF3QUZJdTJqL1NGbUhNcHRzT3pMUmVJQi9VNHp6UjdhOHhzbksvci84U3UzVA=="
+                                        class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Download
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                src="https://cdn.wallpapersafari.com/76/30/ksaDjd.jpg" alt="blog">
+                            <div class="p-6">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">‧
+                                    Action/Neo-noir ‧ 2h 49m
+
+                                </h2>
+                                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">John Wick - 4 (2023)</h1>
+                                <p class="leading-relaxed mb-3">John Wick uncovers a path to defeating The High Table.
+                                    But before he can earn his freedom, Wick must face off against a new enemy with
+                                    powerful alliances across the globe and forces that turn old friends into foes.</p>
+                                <div class="flex items-center flex-wrap ">
+                                    <a href="https://driveleech.org/r?key=RTk5YzJ0b0dKTS8xa2NXNDVzOXdDTjdXVEJqMVdjTUkwWXN2WTFzcjkyUT0=&id=YXpOQTB5Unh6RkM0V1lNK1V0OGZwS0JVb2FZWDNzRjZWK0ovWXRBc01nOU9seTVTUWNLMHhIaVJpN2F6TUJRbw=="
+                                        class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Download
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                src="https://i0.wp.com/www.alittlebithuman.com/wp-content/uploads/2023/05/Transformers-Rise-of-the-Beasts-poster-image.jpg?fit=1600%2C900&ssl=1"
+                                alt="blog">
+                            <div class="p-6">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                                    Action/Sci-fi ‧ 2h 7m
+
+                                </h2>
+                                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Transformers: Rise of the
+                                    Beasts (2023) </h1>
+                                <p class="leading-relaxed mb-3">During the '90s, a new faction of Transformers - the
+                                    Maximals - join the Autobots as allies in the battle for Earth.</p>
+                                <div class="flex items-center flex-wrap ">
+                                    <a href="https://driveleech.org/r?key=RTk5YzJ0b0dKTS8xa2NXNDVzOXdDTjdXVEJqMVdjTUkwWXN2WTFzcjkyUT0=&id=WFh3V01pTFBiR1hhNjVhWnA3YnFRdXIyaDRXRnJSQ210SkppcVZXRzhjN1RDUmdLaHBIanZsVUVWcmljb2FMag=="
+                                        class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Download
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- container 2 up  -->
+    <!-- container 3 down  -->
+
+    <div class="container3">
+
+        <section class="text-gray-600 body-font">
+            <div class="container px-5 py-24 mx-auto">
+                <div class="flex flex-wrap -m-4">
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <!-- image  -->
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                src="https://i0.wp.com/universal-stories.com/wp-content/uploads/2021/06/Watch-Pursuit-of-Happiness-2001-Prime-Video.jpg?fit=19201080&ssl=1"
+                                alt="blog">
+                            <div class="p-6">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">Drama ‧ 1h
+                                    57m
+
+                                </h2>
+                                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The Pursuit of Happyness
+                                    (2006)</h1>
+                                <p class="leading-relaxed mb-3">A struggling salesman takes custody of his son as he's
+                                    poised to begin a life-changing professional career.</p>
+                                <div class="flex items-center flex-wrap ">
+                                    <a href="https://driveleech.org/r?key=RTk5YzJ0b0dKTS8xa2NXNDVzOXdDTjdXVEJqMVdjTUkwWXN2WTFzcjkyUT0=&id=aGcxRjI3TTRkTCtDV3hzc1hTTVJITkIxeHZkbU9tUlo4anJwdUNhR3d2enNyYmIxYU94N3VPNjMvdGNHNzNxSA=="
+                                        class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Download
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                src="https://www.loslunesseriefilos.com/wp-content/uploads/2022/06/critica-the-man-from-toronto.jpg"
+                                alt="blog">
+                            <div class="p-6">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                                    Action/Comedy ‧ 1h 52m
+                                </h2>
+                                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The Man From Toronto
+                                    (2022) </h1>
+                                <p class="leading-relaxed mb-3">The world's deadliest assassin and New York's biggest
+                                    screw-up are mistaken for each other at an Airbnb rental.</p>
+                                <div class="flex items-center flex-wrap ">
+                                    <a href="https://driveleech.org/file/Oq5tfayTEXNZLbJlUnNM"
+                                        class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Download
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                src="https://wallpapercave.com/wp/wp3622321.jpg" alt="blog">
+                            <div class="p-6">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                                    Drama/Crime ‧ 2h 21m
+
+                                </h2>
+                                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Catch Me If You Can (2002)
+                                </h1>
+                                <p class="leading-relaxed mb-3">Barely 21 yet, Frank is a skilled forger who has passed
+                                    as a doctor, lawyer and pilot. FBI agent Carl becomes obsessed with tracking down
+                                    the con man, who only revels in the pursuit.</p>
+                                <div class="flex items-center flex-wrap ">
+                                    <a href="https://driveleech.org/r?key=RTk5YzJ0b0dKTS8xa2NXNDVzOXdDTjdXVEJqMVdjTUkwWXN2WTFzcjkyUT0=&id=WjhTTStLbk13aFdDcVlWRlVELzFjNE1tUnMyVi85ejJNMENPQzR3U2JhRkVkTTNVVVF5S2tlblM3THNMa1RwUA=="
+                                        class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Download
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- container 3 up  -->
+    <!-- container 4 down  -->
+
+    <div class="container4">
+
+        <section class="text-gray-600 body-font">
+            <div class="container px-5 py-24 mx-auto">
+                <div class="flex flex-wrap -m-4">
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <!-- image  -->
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                src="https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/7ef4444ae486872961a54b3c625b4dbfd8ed510e07bf3bf69c5d0d9bdb652dca._UY500_UX667_RI_TTW_.jpg"
+                                alt="blog">
+                            <div class="p-6">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">Comedy 1h
+                                    44m
+
+                                </h2>
+                                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Medellin (2023)</h1>
+                                <p class="leading-relaxed mb-3">To save his brother from the hands of narcos in
+                                    Medellin, Reda gathers a team to raid the kidnappers in Colombia.</p>
+                                <div class="flex items-center flex-wrap ">
+                                    <a href="https://driveleech.org/r?key=RTk5YzJ0b0dKTS8xa2NXNDVzOXdDTjdXVEJqMVdjTUkwWXN2WTFzcjkyUT0=&id=YytHVlF5RlNsa3JURDFoR1EwbDFCeTFsR1hlLzB2RDFtUTFaNmRaWUQ2MTVxYWJId2x1bTIwV0xSODVpZk95NA=="
+                                        class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Download
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                src="https://i0.wp.com/moviesandmania.com/wp-content/uploads/2022/08/The-Popes-Exorcist-horror-movie-film-2023-Russell-Crowe-review-reviews-poster.jpg?resize=450%2C257&ssl=1"
+                                alt="blog">
+                            <div class="p-6">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">Horror ‧
+                                    1h 43m
+
+                                </h2>
+                                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The Popes Exorcist (2023)
+                                </h1>
+                                <p class="leading-relaxed mb-3">Follow Gabriele Amorth, the Vatican's leading exorcist,
+                                    as he investigates the possession of a child and uncovers a conspiracy the Vatican
+                                    has tried to keep secret.</p>
+                                <div class="flex items-center flex-wrap ">
+                                    <a href="https://driveleech.org/r?key=RTk5YzJ0b0dKTS8xa2NXNDVzOXdDTjdXVEJqMVdjTUkwWXN2WTFzcjkyUT0=&id=NDdVSk1Vb3BLMHRlVEtVcnVvTnI0eU1PNllkQVZLekRnWEFxTE1PRnhrbFZ0TzNXN2k4MkREaDU5cElqbzZPeA=="
+                                        class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Download
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                src="https://i.ytimg.com/vi/Mwj7cL3MwpQ/maxresdefault.jpg" alt="blog">
+                            <div class="p-6">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                                    Action/Comedy ‧ 1h 54m
+
+                                </h2>
+                                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Operation Fortune: Ruse de
+                                    Guerre (2023) </h1>
+                                <p class="leading-relaxed mb-3">Special agent Orson Fortune and his team of operatives
+                                    recruit one of Hollywood's biggest movie stars to help them on an undercover mission
+                                    when the sale of a deadly new weapons technology threatens to disrupt the world
+                                    order.</p>
+                                <div class="flex items-center flex-wrap ">
+                                    <a href="https://driveleech.org/r?key=RTk5YzJ0b0dKTS8xa2NXNDVzOXdDTjdXVEJqMVdjTUkwWXN2WTFzcjkyUT0=&id=aFZtYWNJZnN0VWlRZHFodDBBSWQxMkhMaGF3UXhTV01iM3ArU2diVldVdmJSK0NJd1VoemVRQndEWVk3TjJ3NQ=="
+                                        class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Download
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- container 4 up  -->
+    <!-- container 5 down  -->
+
+    <div class="container5">
+
+        <section class="text-gray-600 body-font">
+            <div class="container px-5 py-24 mx-auto">
+                <div class="flex flex-wrap -m-4">
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <!-- image  -->
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                src="https://c4.wallpaperflare.com/wallpaper/818/172/18/5bd0313b92c9f-wallpaper-preview.jpg"
+                                alt="blog">
+                            <div class="p-6">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                                    Action/Sci-fi ‧ 1h 53m
+
+                                </h2>
+                                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">The Meg (2018)</h1>
+                                <p class="leading-relaxed mb-3">A group of scientists exploring the Marianas Trench
+                                    encounter the largest marine predator that has ever existed - the Megalodon.</p>
+                                <div class="flex items-center flex-wrap ">
+                                    <a href="https://driveleech.org/r?key=RTk5YzJ0b0dKTS8xa2NXNDVzOXdDTjdXVEJqMVdjTUkwWXN2WTFzcjkyUT0=&id=R2VvUXV6aDRqUmoxNzZxZG1pSyt1anVUMmFOT2lhRnhoTUR4bzhuYVRjTjMzTUlXQ3ZZZUNYVnRlbHAxL05ycA=="
+                                        class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Download
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                src="https://wallpapercave.com/wp/wp11364653.jpg" alt="blog">
+                            <div class="p-6">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                                    Action/Adventure ‧ 2h 41m
+
+                                </h2>
+                                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Black Panther : Wakanda
+                                    Forever (2022)</h1>
+                                <p class="leading-relaxed mb-3">The people of Wakanda fight to protect their home from
+                                    intervening world powers as they mourn the death of King T'Challa.</p>
+                                <div class="flex items-center flex-wrap ">
+                                    <a href="https://driveleech.org/r?key=RTk5YzJ0b0dKTS8xa2NXNDVzOXdDTjdXVEJqMVdjTUkwWXN2WTFzcjkyUT0=&id=cTNqUVpJTWpWamlQditPektGZG9vS205emZMaWsrTGhobHo3T0UxV2JUK3FHUGowazdkb1V1RndQWi9HNjRWeA=="
+                                        class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Download
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                src="https://images.thedirect.com/media/article_full/thor-new-posters.jpg" alt="blog">
+                            <div class="p-6">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                                    Action/Adventure ‧ 1h 59m
+
+                                </h2>
+                                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Thor Love And Thunder
+                                    (2022) </h1>
+                                <p class="leading-relaxed mb-3">Thor enlists the help of Valkyrie, Korg and
+                                    ex-girlfriend Jane Foster to fight Gorr the God Butcher, who intends to make the
+                                    gods extinct.</p>
+                                <div class="flex items-center flex-wrap ">
+                                    <a href="https://driveleech.org/r?key=RTk5YzJ0b0dKTS8xa2NXNDVzOXdDTjdXVEJqMVdjTUkwWXN2WTFzcjkyUT0=&id=Rm94UVYxWUdDYXBtZ1pjRUo0RlNNVSt1OHZpQVFwODBjVURuMk0rU1JyeDMvSTlYMnRjMjZ5aVA3Yk0wUHVXTg=="
+                                        class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Download
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- container 5 up  -->
+    <!-- container 6 down  -->
+
+    <div class="container6">
+
+        <section class="text-gray-600 body-font">
+            <div class="container px-5 py-24 mx-auto">
+                <div class="flex flex-wrap -m-4">
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <!-- image  -->
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXDlh_qcUJEAANIRlYsOXdP6EyIgYiL00q-A&usqp=CAU"
+                                alt="blog">
+                            <div class="p-6">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                                    Action/Adventure ‧ 2h 11m
+
+                                </h2>
+                                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Top Gun: Maverick (2022)
+                                </h1>
+                                <p class="leading-relaxed mb-3">After thirty years, Maverick is still pushing the
+                                    envelope as a top naval aviator, but must confront ghosts of his past when he leads
+                                    TOP GUN's elite graduates on a mission that demands the ultimate sacrifice from
+                                    those chosen to fly it.</p>
+                                <div class="flex items-center flex-wrap ">
+                                    <a href="https://driveleech.org/r?key=RTk5YzJ0b0dKTS8xa2NXNDVzOXdDTjdXVEJqMVdjTUkwWXN2WTFzcjkyUT0=&id=VlhLMTRwU1UvOTJpbTVXU29sU0VKaHdaQkUwWG1EenlPdEE0d0xFc3NtYW1XZ2xJajJ2bXk0UkE4NEtUdnhNRA=="
+                                        class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Download
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                src="https://cdn.wallpapersafari.com/33/86/L0n7dj.jpg" alt="blog">
+                            <div class="p-6">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                                    Action/Sci-fi ‧ 3h 2m
+
+                                </h2>
+                                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Avengers: Endgame (2019)
+                                </h1>
+                                <p class="leading-relaxed mb-3">After the devastating events of Avengers: Infinity War
+                                    (2018), the universe is in ruins. With the help of remaining allies, the Avengers
+                                    assemble once more in order to reverse Thanos' actions and restore balance to the
+                                    universe.</p>
+                                <div class="flex items-center flex-wrap ">
+                                    <a href="https://driveleech.org/r?key=RTk5YzJ0b0dKTS8xa2NXNDVzOXdDTjdXVEJqMVdjTUkwWXN2WTFzcjkyUT0=&id=N080NjNCVndpYUFseFFSQ0lGdVF3ajg0RGJsN1FMdVVsQXdnNlBuNHpZemhsWjlHaDhwVkVxTHpTSWxrMWt4Kw=="
+                                        class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Download
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                src="https://hips.hearstapps.com/hmg-prod/images/701/jason-momoa-aquaman-poster-1506529877.jpg"
+                                alt="blog">
+                            <div class="p-6">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                                    Action/Adventure ‧ 2h 23m
+
+                                </h2>
+                                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Aquaman (2018) </h1>
+                                <p class="leading-relaxed mb-3">Arthur Curry, the human-born heir to the underwater
+                                    kingdom of Atlantis, goes on a quest to prevent a war between the worlds of ocean
+                                    and land.</p>
+                                <div class="flex items-center flex-wrap ">
+                                    <a href="https://driveleech.org/r?key=RTk5YzJ0b0dKTS8xa2NXNDVzOXdDTjdXVEJqMVdjTUkwWXN2WTFzcjkyUT0=&id=c3dEbi9BUTNUZHUrM01VbkFQaGlpRkR5WENqRjJCaUlMdk1kay80d0srcjRNcTR1amY0bmRLTXFnR290Wkwvaw=="
+                                        class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Download
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- container 6 up  -->
+    <!-- container 7 down  -->
+
+    <div class="container7">
+
+        <section class="text-gray-600 body-font">
+            <div class="container px-5 py-24 mx-auto">
+                <div class="flex flex-wrap -m-4">
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <!-- image  -->
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                src="https://images-na.ssl-images-amazon.com/images/S/pv-target-images/28e5bf9c00a44b3c7d6edb2431e38b9a33b701a0dbc4cdfdc9a35c786100058e._UY500_UX667_RI_TTW_.jpg"
+                                alt="blog">
+                            <div class="p-6">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                                    Action/Adventure ‧ 2h 32m
+
+                                </h2>
+                                <h1 class="title-font text-lg font-medium text-gray-900 mb-3"> The Dark Knight (2008)
+                                </h1>
+                                <p class="leading-relaxed mb-3">When the menace known as the Joker wreaks havoc and
+                                    chaos on the people of Gotham, Batman must accept one of the greatest psychological
+                                    and physical tests of his ability to fight injustice.</p>
+                                <div class="flex items-center flex-wrap ">
+                                    <a href="https://driveleech.org/r?key=RTk5YzJ0b0dKTS8xa2NXNDVzOXdDTjdXVEJqMVdjTUkwWXN2WTFzcjkyUT0=&id=a1RUZ0lXa3BzSTIxVkZKeEZhMmhmQXZ2NW5PT0FnSG10RjBpVXNPUFJrRnRnZWtxMnFwQzVEMWxGZ0FLby84ZQ=="
+                                        class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Download
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                src="https://occ-0-64-56.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABVSf_pSbi4iu5gpGwS-zYzyVHCtXG5D77JLT3QZKpm6dqysmMOgfMLYQgrQms8QoJ-pDCb_XpP3HSF6vHWmhnT3LtVGmCDbN6M2vjGGc3A2qvmWmaMjNf0cXsKmJITTz4otgRw.jpg?r=9e6"
+                                alt="blog">
+                            <div class="p-6">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                                    Mystery/Comedy ‧ 1h 29m
+
+                                </h2>
+                                <h1 class="title-font text-lg font-medium text-gray-900 mb-3"> Murder Mystery (2019)
+                                </h1>
+                                <p class="leading-relaxed mb-3">A New York cop and his wife go on a European vacation to
+                                    reinvigorate the spark in their marriage, but end up getting framed and on the run
+                                    for the death of an elderly billionaire.</p>
+                                <div class="flex items-center flex-wrap ">
+                                    <a href="https://driveleech.org/r?key=RTk5YzJ0b0dKTS8xa2NXNDVzOXdDTjdXVEJqMVdjTUkwWXN2WTFzcjkyUT0=&id=bDE2MnRmTVJEVVpXVlJPemtFNmlmVTlLQjg0WlFNbDNqaERkZkRYOUp6U2NORDFwR094ZnhWbWl0NGUxRXZtKw=="
+                                        class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Download
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                src="https://gonewiththetwins.com/new/wp-content/uploads/2016/08/suicidesquad.jpg"
+                                alt="blog">
+                            <div class="p-6">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                                    Action/Adventure ‧ 2h 14m
+
+                                </h2>
+                                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Suicide Squad (2016) </h1>
+                                <p class="leading-relaxed mb-3">A secret government agency recruits some of the most
+                                    dangerous incarcerated super-villains to form a defensive task force. Their first
+                                    mission: save the world from the apocalypse.</p>
+                                <div class="flex items-center flex-wrap ">
+                                    <a href="https://driveleech.org/r?key=RTk5YzJ0b0dKTS8xa2NXNDVzOXdDTjdXVEJqMVdjTUkwWXN2WTFzcjkyUT0=&id=Sm53UHlWRkNhcytDa0F6dU5YQ01WQWZTdzJERTdvUTZzbFZjTDB6Q3dZZUw4NkZKODVPV0psbGJQZjRWYURwcQ=="
+                                        class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Download
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- container 7 up  -->
+    <!-- container 8 down  -->
+
+    <div class="container8">
+
+        <section class="text-gray-600 body-font">
+            <div class="container px-5 py-24 mx-auto">
+                <div class="flex flex-wrap -m-4">
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <!-- image  -->
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                src="https://wallpapercave.com/wp/wp11514082.jpg" alt="blog">
+                            <div class="p-6">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                                    Horror/Psychological horror ‧ 1h 55m
+                                </h2>
+                                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Smile (2022)</h1>
+                                <p class="leading-relaxed mb-3">After witnessing a bizarre, traumatic incident involving
+                                    a patient, a psychiatrist becomes increasingly convinced she is being threatened by
+                                    an uncanny entity.</p>
+                                <div class="flex items-center flex-wrap ">
+                                    <a href="https://driveleech.org/r?key=RTk5YzJ0b0dKTS8xa2NXNDVzOXdDTjdXVEJqMVdjTUkwWXN2WTFzcjkyUT0=&id=VE5STTd6NVZsMnZ4djJpVHVqbHVUWmJCYXAzZTNKSTJGcnd2dDQ5RjI5bSt0dGhmbW5hOTc4OVRPMGxBWUdUVw=="
+                                        class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Download
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                src="https://i.ytimg.com/vi/bBkhwcmM-uM/maxresdefault.jpg" alt="blog">
+                            <div class="p-6">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                                    Horror/Thriller ‧ 1h 39m
+                                </h2>
+                                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Orphan: First Kill (2022)
+                                </h1>
+                                <p class="leading-relaxed mb-3">After orchestrating a brilliant escape from an Estonian
+                                    psychiatric facility, Esther travels to America by impersonating the missing
+                                    daughter of a wealthy family.</p>
+                                <div class="flex items-center flex-wrap ">
+                                    <a href="https://driveleech.org/r?key=RTk5YzJ0b0dKTS8xa2NXNDVzOXdDTjdXVEJqMVdjTUkwWXN2WTFzcjkyUT0=&id=bzJaZlRlZk9LRzRwNlR5YUJUcG9IcGVhNU5zM3BPK1RhSk1pM0t5S3Frb0pXdmtKc3hERTBnU2JrWmt0VEljMQ=="
+                                        class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Download
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-4 md:w-1/3">
+                        <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                            <img class="lg:h-48 md:h-36 w-full object-cover object-center"
+                                src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c9a27e0a-52f7-4cec-a932-b6246308a58e/dezk3rq-a8dae598-0da4-48ad-9af4-165def347958.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2M5YTI3ZTBhLTUyZjctNGNlYy1hOTMyLWI2MjQ2MzA4YTU4ZVwvZGV6azNycS1hOGRhZTU5OC0wZGE0LTQ4YWQtOWFmNC0xNjVkZWYzNDc5NTgucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.APMp0n8Bz7GWW8wGTob70vqjb92Tn79w8I1TStsrLds"
+                                alt="blog">
+                            <div class="p-6">
+                                <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                                    Action/Adventure ‧ 2h 28m
+                                </h2>
+                                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Spider-Man: No Way Home
+                                    (2021) </h1>
+                                <p class="leading-relaxed mb-3">With Spider-Man's identity now revealed, Peter asks
+                                    Doctor Strange for help. When a spell goes wrong, dangerous foes from other worlds
+                                    start to appear, forcing Peter to discover what it truly means to be Spider-Man.</p>
+                                <div class="flex items-center flex-wrap ">
+                                    <a href="https://driveleech.org/r?key=RTk5YzJ0b0dKTS8xa2NXNDVzOXdDTjdXVEJqMVdjTUkwWXN2WTFzcjkyUT0=&id=aWhkOTZ3L2JaOHpQcmtucVhwSXJKczFEd3RweEJkYnpCL1FzQm9mYm5hQ2U1VnpiWHFMaThEbDQ1UXhpYzk1Rw=="
+                                        class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Download
+                                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                            stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M5 12h14"></path>
+                                            <path d="M12 5l7 7-7 7"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- container 8 up  -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

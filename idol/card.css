@@ -1,0 +1,146 @@
+* {
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+.card {
+    /* width: 50%;
+    height: 50%;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    border: 2px solid red;
+    /* margin: 0px 0px 0px 0px; */
+}
+
+.cardContent {
+    width: 26%;
+    padding: 8px;
+    min-height: 66vh;
+    margin: 0px 0px 0px 0px;
+    /*margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;  */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* min-height: 100vh; */
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.row1 {
+    border: 3px solid blue;
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: space-around; */
+    /* margin: 0px 0px 0px 0px; */
+}
+
+.row2 {
+    border: 3px solid rgb(0, 255, 98);
+    margin: 17px 0px 0px 0px;
+    text-align: center;
+}
+
+.row3 {
+    border: 3px solid rgb(0, 238, 255);
+    margin: 10px 0px 0px 0px;
+}
+
+.row4 {
+    border: 3px solid rgb(234, 255, 0);
+    margin: 15px 0px 0px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cardContent img {
+    border-radius: 16px;
+    width: 326px;
+    height: 33vh;
+}
+
+.row2 div {
+    margin: 12px 0px 0px 0px;
+}
+
+.songTime {
+    display: flex;
+    justify-content: space-between;
+}
+
+.progressBar {
+    display: flex;
+    justify-content: center;
+}
+
+#progress {
+    width: 21vw;
+    cursor: pointer;
+}
+
+.row4 span i {
+    cursor: pointer;
+    scale: 1.5;
+}
+
+#myplay {
+    scale: 3.2;
+}
+
+#myskipnext {
+    scale: 2.4;
+}
+
+#myskipprevious {
+    scale: 2.4;
+}
+
+#myshuffle {
+    scale: 1.6;
+}
+
+#myqueue {
+    scale: 1.6;
+}
+
+#mydownarrow {
+    scale: 1.1;
+}
+
+#my3dots {
+    scale: 1.1;
+}
+
+#heart:hover {
+    scale: 1.2;
+}
+
+@media only screen and (max-width : 1300px) {
+    .cardContent {
+        width: 46%;
+        padding: 8px;
+        min-height: 66vh;
+        margin: 0px 0px 0px 0px;
+    }
+}
+
+@media only screen and (max-width : 700px) {
+    .cardContent {
+        width: 68%;
+        padding: 8px;
+        min-height: 66vh;
+        margin: 0px 0px 0px 0px;
+    }
+}
+
+@media only screen and (max-width : 400px) {
+    .cardContent {
+        width: 80%;
+        padding: 8px;
+        min-height: 66vh;
+        margin: 0px 0px 0px 0px;
+    }
+}
